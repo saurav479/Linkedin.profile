@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkedin website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src ="C:\Users\SAURAV KUMAR\Documents\link\images\LinkedIn logo.png"></a>
+<div class="search-box">
+    <img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\search.png">
+    <input type="text" placeholder="search">
+</div>
+        </div>
+<div class="navbar-center">
+    <ul>
+        <li><a href="#" class="active-link"><img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\home.png"><span>home</span></span> </a></li>
+        <li><a href="#"><img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\network.png"><span>My network</span></span> </a></li>
+        <li><a href="#"><img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\jobs.png"><span>Jobs</span></span> </a></li>
+        <li><a href="#"><img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\message.png"><span>Messages</span></span> </a></li>
+        <li><a href="#"><img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\notification.png"><span>Notifications</span></span> </a></li>
+    </ul>
+</div>
+<div class="navbar-right">
+    <div class="online">
+    <img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\S5.jpeg" class="nav-profile-img" 
+    onclick="togglemenu()">
+</div>
+</div> 
+<!-- .......profile-drop-down-menu......... -->
+<div class="profile-menu-wrap" id="profilemenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\S5.jpeg">
+            <div>
+                <h3>Saurav Kumar</h3>
+                <a href="#">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\feedback.png">
+            <p>Give Feedback </p>
+            <span>></span>            
+            </a>
+                        <a href="#" class="profile-menu-link">
+                <img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\setting.png">
+                <p>Setting & Privacy</p>
+                <span>></span>
+                </a>
+                
+                <a href="#" class="profile-menu-link">
+                    <img src="C:\Users\SAURAV KUMAR\Documents\Linkedin\images\help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="C:\Users\SAURAV KUMAR\Documents\link\images\display.png">
+                        <p>Display & Accessibility</p>
+                        <span>></span>
+                        </a>
+                        <a href="#" class="profile-menu-link">
+                            <img src="C:\Users\SAURAV KUMAR\Documents\link\images\logout.png">
+                            <p>Logout</p>
+                            <span>></span>
+                            </a>
+                               </div>
+                            </div>
+</nav>
+<!-- --------navbar closed----- -->
+
+<div class="container">
+    <div class="profile-main">
+        <div class="profile-sidebar">
+            
+        </div>
+    </div>
+</div>
+    <script>
+        let profilemenu = document.getElementById("profilemenu");
+
+        function togglemenu(){
+            profile-menu.classlist.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
